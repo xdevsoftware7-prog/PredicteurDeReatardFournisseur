@@ -1,4 +1,4 @@
-const db = require('../database/mysql');
+const db = require('../../database/mysql');
 
 // Statistiques globales
 const getGlobalStats = async () => {

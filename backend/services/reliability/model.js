@@ -1,4 +1,4 @@
-const db = require('../database/mysql');
+const db = require('../../database/mysql');
 
 // Score de fiabilité d'un fournisseur
 const getSupplierScore = async (supplierId) => {

@@ -1,4 +1,4 @@
-const db = require('../database/mysql');
+const db = require('../../database/mysql');
 
 // Tous les fournisseurs
 const getAll = async () => {
